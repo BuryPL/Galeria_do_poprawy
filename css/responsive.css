@@ -1,0 +1,42 @@
+@media all not (min-device-width:993px) {
+    #gallery {
+        width: 100%;
+    }
+}
+
+@media (min-device-width:769px) and (max-device-width:992px) {
+    figure {
+        width: 48%;
+    }
+    figure figcaption {
+        font-size: 1.5rem;
+    }
+    header {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-device-width:481px) and (max-device-width:768px) {
+    figure {
+        width: 98%;
+    }
+    figure figcaption {
+        font-size: 2rem;
+    }
+    header {
+        font-size: 2rem;
+    }
+}
+
+@media (max-device-width:480px) {
+    figure {
+        width: 98%;
+    }
+    figure figcaption {
+        font-size: 2rem;
+    }
+    header {
+        font-size: 2rem;
+    }
+    
+}
