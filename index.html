@@ -1,44 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Responsive galery</title>
-	
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
 
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/responsive.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive galery</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
+
 <body>
-	<section id="gallery">
-		<header>
-			<h2>Moja galeria</h2>
-			<p>Najnowsze prace</p>
-		</header>
-		<figure>
-			<img src="img/image1.jpg" alt="image 1">
-			<figcaption>Obraz 1.</figcaption>
-		</figure>
-		<figure>
-			<img src="img/image2.jpg" alt="image 2">
-			<figcaption>Obraz 2.</figcaption>
-		</figure>
-		<figure>
-			<img src="img/image3.jpg" alt="image 3">
-			<figcaption>Obraz 3.</figcaption>
-		</figure>
-		<figure>
-			<img src="img/image4.jpg" alt="image 4">
-			<figcaption>Obraz 4.</figcaption>
-		</figure>
-		<figure>
-			<img src="img/image5.jpg" alt="image 5">
-			<figcaption>Obraz 5.</figcaption>
-		</figure>
-		<figure>
-			<img src="img/image6.jpg" alt="image 6">
-			<figcaption>Obraz 6.</figcaption>
-		</figure>
-	</section>
+    <section id="gallery">
+        <header>
+            <h2>Moja galeria</h2>
+            <p>Najnowsze prace</p>
+        </header>
+
+        <div class="flip_container">
+            <figure class="flipper">
+                <img src="img/image1.jpg" alt="image 1" class="front">
+                <p class="back">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam harum reprehenderit aut ad distinctio voluptatem nostrum neque et dignissimos cumque.</p>
+                <figcaption>Obraz 1.</figcaption>
+            </figure>
+        </div>
+
+        <div class="flip_container">
+            <figure class="flipper">
+                <img src="img/image2.jpg" alt="image 2" class="front">
+                <p class="back">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam harum reprehenderit aut ad distinctio voluptatem nostrum neque et dignissimos cumque.</p>
+                <figcaption>Obraz 2.</figcaption>
+            </figure>
+        </div>
+
+        <div class="flip_container">
+            <figure class="flipper">
+                <img src="img/image3.jpg" alt="image 3" class="front">
+                <p class="back">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam harum reprehenderit aut ad distinctio voluptatem nostrum neque et dignissimos cumque.</p>
+                <figcaption>Obraz 3.</figcaption>
+            </figure>
+        </div>
+
+        <div class="flip_container">
+            <figure class="flipper">
+                <img src="img/image4.jpg" alt="image 4" class="front">
+                <p class="back">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam harum reprehenderit aut ad distinctio voluptatem nostrum neque et dignissimos cumque.</p>
+                <figcaption>Obraz 4.</figcaption>
+            </figure>
+        </div>
+
+        <div class="flip_container">
+            <figure class="flipper">
+                <img src="img/image5.jpg" alt="image 5" class="front">
+                <p class="back">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam harum reprehenderit aut ad distinctio voluptatem nostrum neque et dignissimos cumque.</p>
+                <figcaption>Obraz 5.</figcaption>
+            </figure>
+        </div>
+
+        <div class="flip_container">
+            <figure class="flipper">
+                <img src="img/image6.jpg" alt="image 6" class="front">
+                <p class="back">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam harum reprehenderit aut ad distinctio voluptatem nostrum neque et dignissimos cumque.</p>
+                <figcaption>Obraz 6.</figcaption>
+            </figure>
+        </div>
+    </section>
 </body>
+
 </html>

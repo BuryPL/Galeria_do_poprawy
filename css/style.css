@@ -18,7 +18,7 @@ h2 {
 	text-align: center;
 }
 
-figure {
+div {
 	display: inline-block;
 	width: 338px;
 	margin: 0;
@@ -33,3 +33,4 @@ figure img{
 	width: 100%;
 	border: 2px solid #444;
 }
+
